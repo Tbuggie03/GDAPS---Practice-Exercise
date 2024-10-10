@@ -45,7 +45,7 @@
             // Find the sin of the user's angle
             Console.WriteLine("Great! Now let's determine some trigonometry.");
             Console.WriteLine("Give me a whole angle in degrees, and I'll tell you the sine!");
-            string userAngleAsString = Console.ReadLine();
+            userAngleAsString = Console.ReadLine();
             userAngleAsInt = int.Parse(userAngleAsString);
 
             Console.WriteLine(
