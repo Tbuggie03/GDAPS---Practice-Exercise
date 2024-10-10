@@ -57,10 +57,11 @@
                 $"{userAngleAsInt} degrees is " +                   // 60 degrees
                 $"{userAngleAsInt * Math.PI / 180} radians.");      // 1.0471975511965976 radians
 
+
             Console.WriteLine(
                 $"The sine of " +
-                $"{userAngleAsInt} radians is " +                   // 1.05 radians
-                $"{Math.Sin(userAngleAsInt)}");                   // 0.866
+                $"{Math.Round(userAngleAsInt * Math.PI / 180, 2)} radians is " +                   // 1.05 radians
+                $"{Math.Round(Math.Sin(userAngleAsInt*Math.PI/180), 3)}");                   // 0.866
 
 
             // Blank line for readable formatting
