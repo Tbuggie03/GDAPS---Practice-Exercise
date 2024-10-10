@@ -31,7 +31,7 @@
             percentage = userNumber2AsInt / 10;
 
             // Perform necessary math on it!
-            double userNumberAsPercentage = userNumber1AsInt * percentage;
+            double userNumberAsPercentage = userNumber2AsInt * percentage;
             Console.WriteLine(
                 $"{percentage} of " +                  // Prints out of 100% (20%)
                 $"{userNumber1AsString} is " +         // User's chosen starting value (50)
